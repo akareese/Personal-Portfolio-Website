@@ -677,3 +677,15 @@ body {
     font-size: 1rem;
   }
 }
+
+.nav-brand {
+  margin-right: auto;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #222;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+}
+
+.nav-brand:hover {
+  color: #555;
