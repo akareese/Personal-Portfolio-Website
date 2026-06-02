@@ -29,9 +29,23 @@ body {
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.08);
 }
 
+.nav-links {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin: 0;
+  padding: 0;
+}
+
 .nav-links a {
   padding: 8px 22px;
-  border: 1.5px solid #fff; 
+  border: 1.5px solid #fff;
   border-radius: 8px;
   color: #fff;
   text-decoration: none;
@@ -40,9 +54,8 @@ body {
 
 .nav-links a:hover {
   background: #fff;
-  color: #000; 
+  color: #000;
 }
-
 
 .hero {
   min-height: 100vh;
