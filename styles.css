@@ -682,3 +682,6 @@ body {
   font-size: 0.9rem;
   font-weight: 500;
 }
+#home, #about, #skills, #education, #contact {
+  scroll-margin-top: 75px;
+}
