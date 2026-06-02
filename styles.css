@@ -582,3 +582,12 @@ body {
 .cert-card {
   text-align: left;
 }
+
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 24px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
