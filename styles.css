@@ -29,22 +29,18 @@ body {
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.08);
 }
 
-.nav-links {
-  list-style: none;
-  display: flex;
-  gap: 30px;
-}
-
 .nav-links a {
+  padding: 8px 22px;
+  border: 1.5px solid #fff; 
+  border-radius: 8px;
+  color: #fff;
   text-decoration: none;
-  color: #222;
-  font-size: 1.1rem;
-  font-weight: 500;
-  transition: 0.25s ease;
+  transition: background 0.15s, color 0.15s;
 }
 
 .nav-links a:hover {
-  color: #555;
+  background: #fff;
+  color: #000; 
 }
 
 
