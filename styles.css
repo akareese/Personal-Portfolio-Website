@@ -429,10 +429,10 @@ body {
 }
 
 .projects-grid {
-  max-width: 1300px;
+  max-width: 1600px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(4, 2fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 25px;
 }
 
@@ -621,6 +621,12 @@ body {
   scroll-margin-top: 75px;
 }
 
+@media (max-width: 1100px) {
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 @media (max-width: 900px) {
   .cat-logo {
     width: 80px;
@@ -678,6 +684,12 @@ body {
   }
 }
 
+@media (max-width: 600px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 .nav-brand {
   margin-right: auto;
   font-size: 1rem;
@@ -689,3 +701,4 @@ body {
 
 .nav-brand:hover {
   color: #555;
+}
