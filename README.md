@@ -2,4 +2,4 @@ A responsive personal portfolio website using HTML, CSS, and JavaScript to showc
 
 https://ethanseanreis.com/
 
-![Visuals](homepage.jpg)
+![Visuals](homepage.png)
