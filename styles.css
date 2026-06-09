@@ -147,12 +147,13 @@ body {
 .hero .shape5 {
   width: 420px;
   height: 420px;
-  top: 35%;
-  right: -120px;
+  top: 50%;        
+  right: -220px;   
   background: rgba(220,220,220,0.35);
   clip-path: polygon(20% 0%, 100% 20%, 80% 100%, 0% 80%);
   transform: rotate(-14deg);
 }
+
 
 .hero .shape6 {
   width: 380px;
