@@ -65,8 +65,13 @@ body {
   padding: 100px 20px 40px;
   position: relative;
   overflow: hidden;
-  background: #efefec;
-
+  background-color: #fafafa;
+  background-image:
+    radial-gradient(rgba(0,0,0,0.035) 1px, transparent 1px),
+    radial-gradient(rgba(0,0,0,0.025) 1px, transparent 1px);
+  background-size: 22px 22px, 22px 22px;
+  background-position: 0 0, 11px 11px;
+}
 
 .cat-logo {
   position: absolute;
